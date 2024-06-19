@@ -10,7 +10,7 @@ html,body{
 
 .page_1{display:flex; } 
  .image_bg{height: 110vh;width: 50vw;   display: inline-block;} 
- .login_form{height: 50vh;width: 50vw;  display: inline-block;background: #771f1f;}
+ .login_form{height: 50vh;width: 50vw;  display: inline-block;background: black;}
 
 .heading2{
   color: #FFF;
