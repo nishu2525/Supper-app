@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Supper-app/static/css/main.1777f79c.css",
+    "main.js": "/Supper-app/static/js/main.ac4cfc03.js",
+    "static/media/sidebanner.png": "/Supper-app/static/media/sidebanner.24138d544499a2cfee30.png",
+    "static/media/profile.png": "/Supper-app/static/media/profile.5e1db7cad947e7f3c5a3.png",
+    "static/media/timertone.mp3": "/Supper-app/static/media/timertone.830e042bcba12cbc055c.mp3",
+    "static/media/drama.png": "/Supper-app/static/media/drama.d94917e7d68925eb7f94.png",
+    "static/media/romance.png": "/Supper-app/static/media/romance.78f522078cfc3f8ab0e3.png",
+    "static/media/horror.png": "/Supper-app/static/media/horror.19b858bd63d9aca5ac0d.png",
+    "static/media/Fantasy.png": "/Supper-app/static/media/Fantasy.856c87fb8aecc1fb76ed.png",
+    "static/media/thriller.png": "/Supper-app/static/media/thriller.d53e0e286e1b9e91cc98.png",
+    "static/media/fiction.png": "/Supper-app/static/media/fiction.81913e6584ec94fd7fb2.png",
+    "static/media/western.png": "/Supper-app/static/media/western.3a7b1bb980f9b0b1a22a.png",
+    "static/media/music.png": "/Supper-app/static/media/music.31524604f98bfd0d994e.png",
+    "static/media/action.png": "/Supper-app/static/media/action.3c32f455505bb0185c08.png",
+    "index.html": "/Supper-app/index.html",
+    "main.1777f79c.css.map": "/Supper-app/static/css/main.1777f79c.css.map",
+    "main.ac4cfc03.js.map": "/Supper-app/static/js/main.ac4cfc03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1777f79c.css",
+    "static/js/main.ac4cfc03.js"
+  ]
+}
