@@ -27,34 +27,3 @@
 .selected-card {
   border: 6px solid #11B800; 
 }
-/* .selected-button {
-  width: 193px;
-height: 52px;
-flex-shrink: 0;
-margin: 15px;
-color: #FFF;
-font-family: Roboto;
-font-size: 25.143px;
-font-style: normal;
-font-weight: 400;
-letter-spacing: 0.503px;
-border-radius: 31px;
-background: #148A08;
-line-height: 105.688%;  
-} */
-
-
-
-
-
-
-
-
-/* if condtN insidee handleCardClick in category-pg */
-/* // if (selectedCategories.includes(title)) {
-  //   setSelectedCategories(selectedCategories.filter((category) => category !== title));
-  // } else {
-  //   if (selectedCategories.length < 9 && selectedCategories.length >3) {
-  //     setSelectedCategories([...selectedCategories, title]);
-  //   }
-  // } */
