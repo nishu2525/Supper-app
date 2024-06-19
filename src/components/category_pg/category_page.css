@@ -1,0 +1,91 @@
+body{margin: 0px;padding: 0px;background: #000;}
+.page_2{ background: #000;display:flex;}
+
+.ll_side{display: inline-block;height: 140vh;width: 50vw; }
+
+.rr_side{ height: 140vh;width: 50vw;display: inline-block;} 
+    
+.heading{  margin-top: 30px;
+    margin-right: 2vw;
+}
+h1{color: #FFF;
+    font-family: Roboto;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 139.688%;
+    margin-left: 7vw;
+    margin-top: -25px;
+ }
+ .selected{
+    margin-left: 5vw;
+ }
+ .selected-button {
+    width: 12vw;
+  height: 7vh;
+  flex-shrink: 0;
+  margin: 15px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 25.143px;
+  font-style: normal;
+  font-weight: 400;
+  /* outline: none; */
+  line-height: 105.688%; /* 26.573px */
+  letter-spacing: 0.503px;
+    border-radius: 31px;
+    border: none;
+  background: #148A08;
+  }
+  .remove_card{
+    color: #085C00;
+font-family: Roboto;
+font-size: 26.333px;
+font-style: normal;
+font-weight: 400;
+line-height: 105.688%; /* 27.831px */
+letter-spacing: 0.527px;
+background: transparent;
+border: none;
+margin-left: 1rem;
+  }
+
+  .error-message{color: #F00;
+    font-family: Roboto;
+    font-size: 25.14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.688%; /* 26.57px */
+    letter-spacing: 0.503px;
+    margin-left: 6vw;
+  }
+ .errorSign{
+    height: 18px;
+  }
+/* Grid.css */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    padding: 10px;
+    width: 50vw;
+  }
+.next_button{
+    margin-top: 130vh;
+    margin-right: 6vw;
+    width: 12vw;
+    height: 7vh;
+    flex-shrink: 0;
+    border: none;
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 26.286px;
+font-style: normal;
+font-weight: 500;
+line-height: 92.2%; /* 24.235px */
+letter-spacing: 0.526px;
+border-radius: 38.857px;
+background: #148A08;
+}

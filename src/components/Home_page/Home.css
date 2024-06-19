@@ -1,0 +1,288 @@
+.container{
+    display: flex;
+}
+/*             about_section */
+.about_section{
+    margin: 30px 5px 5px 20px ;
+    width: 38vw;
+height: 50vh;
+flex-shrink: 0;
+border-radius: 33.428px;
+background: #5746EA;
+ display: inline-flex;
+}
+.profile{
+    display: inline-flex;    
+}
+.profile_photo{
+    margin: 20px;
+    height: 45vh;
+}
+.details{
+    margin-left: 20px;
+    color: antiquewhite;
+    display:inline-block;
+     flex-direction: column;      
+}
+.details_name, .details_email, .details_uName{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 36.947px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 83.188%;
+    letter-spacing: 0.739px;
+}
+.details_uName{
+    margin-left:0px ;
+    font-size: 72.134px;
+font-weight: 500;
+letter-spacing: 1.443px;
+}
+.Catergories_b{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    position: relative;
+    top: 32vh;right: 22vw;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    line-height: 105.688%; ;
+}
+.S_Catergories{
+    height: 2rem;width: 6rem;
+    border-radius: 21px;
+    background: #9F94FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*         weather  section       */
+.weather_section{
+    width: 38vw;
+    height: 55vh;
+    color: #FFF;
+    border-radius: 33.428px;
+    position: relative;
+    top: 60vh;right: 38vw;
+background: #101744;
+display: inline-block;
+
+}
+.timezone{border-radius: 34px 34px 0px 0px;
+    background: #FF4ADE;color: #FFF;
+    color: #FFF;
+font-family: Roboto;
+font-size: 40.06px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+justify-content: space-around;
+
+}
+.weatherzone{
+    display: flex;
+    align-items: center;
+    color:#FFF ;
+     justify-content: space-around; 
+}
+.weatherzone img{height: 15vh; width: 8vw;}
+.weatherzone p{
+    color: #FFF;
+font-family: Roboto;
+font-size: 24.599px;
+font-style: normal;
+font-weight: 400;
+line-height: 139.688%; 
+margin-bottom: 4rem;
+}
+.weatherzone span{
+    font-size: 60.224px;
+    margin-left: 3rem ;
+}
+.weatherzone p img{
+    height: 5vh;width: 2vw;
+}
+.vl {
+    border-left: 1.367px solid  #FFF;;
+    height: 10rem;
+    margin-bottom: 3rem;
+  }
+.weatherzone span sup{ margin-bottom: 50px;}
+ #p1{font-size: 31.432px;margin-bottom: 4rem;}
+
+/* News Section  */
+ .news_section{
+    height: 135vh;width: 29vw;border-radius:12px ;display:inline-block; flex-shrink: 0; 
+    margin-top: 30px;
+    margin-left: 66rem;
+    position:absolute;
+ }
+ .news_section img{
+    height: 55vh;width: 29vw;
+    border-radius:19px 19px 0px 0px ;
+    position:absolute;
+    align-items:center;
+ }
+ .n_description{  height: 45vh;
+    border-radius: 0px 0px 19px 19px;
+    width: 29vw;
+    background-color:#FFF;
+    color: #272727;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 18.25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 161.688%;
+    margin-top: 0vh; 
+ }
+.news_details{
+width: 29vw;height: 32vh;background: rgba(0, 0, 0, 0.74);margin-top: 60vh; 
+}
+
+.news_details p{color: #FFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.688%; 
+    letter-spacing: 0.64px;
+    margin-bottom: 0px;
+}
+.news_details span{
+    color:#FFF;
+    width: 29vw;
+font-family: Roboto;
+font-size: 18.249px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+/* Note    Section    */
+.notesdiv{
+    color: #FFF;
+    background: #F1C75B;
+    height: 110vh;
+    width: 26vw;
+    border-radius: 19px;
+    display:inline-block; flex-shrink: 0; 
+    margin-top: 30px;
+    margin-left: 41vw;
+    position:absolute;
+}
+.notesheading{
+    color: #000;
+font-family: Roboto;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 105.688%; 
+letter-spacing: 0.76px;
+margin-left: 0.5rem;
+   
+}
+.notestext{
+width: 22vw;height: 75vh;
+margin: 1.5rem ;
+border: none;
+background: transparent;
+color: #000;
+font-family: Roboto;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 105.688%; 
+letter-spacing: 0.84px;
+}
+
+.timerC {
+    position: relative;
+    top:120vh;
+    width: 65vw;
+    height:55vh;
+    border-radius: 33.428px;
+    margin-left: 2rem;
+    background: rgb(30, 35, 67);
+    position: absolute;
+    border-radius: 12px;
+    margin-top: 1.25rem;
+    display: flex;
+    box-sizing: border-box;
+    padding: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .timer_section {
+    color: white;
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-evenly;
+  }
+  .times {
+    text-align: center;
+    padding: 6px;
+  }
+.imgUD{
+    width: 20px;
+  height: 20px;
+}  .playing_button {
+    background: rgb(255, 106, 106);
+    border-radius: 12px;
+    padding: 6px;
+    color: white;
+    text-align: center;
+  }
+  
+/* .timer_section{
+    background-color: #1E2343;
+    width: 60vw;
+    height: 35vh;
+    position: absolute;
+    top: 120vh;
+     margin-left: 2rem ;
+     border-radius: 34px;
+}
+.timer_controls{
+margin-left: 20rem;
+margin-top: 5rem;
+}
+.Tbtn{
+margin-left: 8rem;
+margin-top: 5em;
+background-color: #FF6A6A;
+ border-radius: 35px;
+width: 20rem;
+height:4rem;
+}
+.timer
+{
+    margin-top: -20rem;
+} */
+
+.browse_btn{
+    width: 179px;
+height: 50.12px;
+flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 23.526px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 92.2%;
+    letter-spacing: 0.471px;
+    border-radius: 34.777px;
+background: #148A08;
+margin-top: 150vh; margin-left: 8rem;margin-bottom: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
